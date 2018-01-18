@@ -3,7 +3,7 @@ Data analysis workflow for targeted MSI imaging experiments
 
 
 ## Details 
-The preprocessing of targeted MSI data performed in following steps:
+The preprocessing of targeted MSI data is performed in following steps:
 
 1. Create mass bin of size 0.5.
 
