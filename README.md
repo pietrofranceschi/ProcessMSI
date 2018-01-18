@@ -2,7 +2,7 @@
 Data analysis workflow for targeted MSI imaging experiments
 
 
-# Workflow Description ...
+## Details 
 The preprocessing of targeted MSI data performed in following steps:
 
 1. Create mass bin of size 0.5.
@@ -11,6 +11,6 @@ The preprocessing of targeted MSI data performed in following steps:
 
 3. In peak picking step, signal-to noise value will estimate for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
 
-4. Create tumor masked image based on tissue ion image using density based thresholding approach.
+4. Create tumor masked image based on tissue ion image using density-based thresholding method.
 
 5. Remove spatial noise using median filtering.
