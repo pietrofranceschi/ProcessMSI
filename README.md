@@ -1,9 +1,11 @@
 # ProcessMSI
 Data analysis workflow for targeted MSI imaging experiments
 
-Depends on
+* Depends on
 
+```
 MALDIquant, msprocess
+```
 
 examples
 
