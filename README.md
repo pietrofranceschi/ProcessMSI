@@ -8,7 +8,7 @@ The preprocessing of targeted MSI data in our study is performed in following st
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/BinnedSpectrum.png)
 
 2. Then, within desired mass bins, in our case, three ion peaks, namely: drug, tissue, and internal standard ion were selected. 
-
+![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/binnedspectrumzoom.png)
 
 3. Peak selection was performed based on local maxima search in respective bins. In peak selection step, signal-to-noise value will estimate for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/snrspectrum.png)
