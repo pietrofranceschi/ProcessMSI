@@ -13,7 +13,7 @@ filepath  = 'C:\\folder\\drug'           ## MSI data folder path
 
  filename ='drug'                        ## filename to save csv files<br/>
  
- mzs = mzs = c(284.2, 281.2, 289.2)      ## mass list corresponds to the drug, tissue and internal standard mass
+ mzs = c(284.2, 281.2, 289.2)      ## mass list for drug, tissue and internal standard (optional) ion peaks
 
 ```
 
