@@ -15,3 +15,4 @@ The preprocessing of targeted MSI data is performed in following steps:
 4. Create tumor masked image based on tissue ion image using density-based thresholding method.
 
 5. Remove spatial noise using median filtering.
+![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/FinalionImages.png)
