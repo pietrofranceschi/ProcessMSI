@@ -6,14 +6,16 @@ Data analysis workflow for targeted MSI imaging experiments
 ```
 MALDIquant, msprocess
 ```
+Example
 
-examples
+```
+filepath  = 'C:\\folder\\drug'           ## MSI data folder path
 
-filepath  = 'C:\\folder\\drug' ## MSI data folder path
-
- filename ='drug'  ## filename to save csv files<br/>
+ filename ='drug'                        ## filename to save csv files<br/>
  
- mzs = mzs = c(284.2, 281.2, 289.2)  ## mass list corresponds to the drug, tissue and internal standard mass
+ mzs = mzs = c(284.2, 281.2, 289.2)      ## mass list corresponds to the drug, tissue and internal standard mass
+
+```
 
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
