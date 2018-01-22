@@ -4,7 +4,7 @@ Data analysis workflow for targeted MSI imaging experiments
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
 
-1. First, a reference mass bin was created of size 0.5.
+1. First, a reference mass bin of size 0.5 was created.
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/BinnedSpectrum.png)
 
