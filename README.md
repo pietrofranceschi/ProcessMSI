@@ -9,6 +9,7 @@ The preprocessing of targeted MSI data is performed in following steps:
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/BinnedSpectrum.png)
 
 2. Extract drug, tissue and internal standard (optional value) peaks for individual spectrum within their respective bins based on local maxima search. If m/z for tissue ion image is missing, then the drug m/z value will use to extract tissue ion image. 
+![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/ZoomedPickedspectrum.png)
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/IonImage.png)
 
 3. In peak picking step, signal-to noise value will estimate for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
