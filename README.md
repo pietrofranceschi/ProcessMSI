@@ -12,7 +12,7 @@ The preprocessing of targeted MSI data in our study is performed in following st
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/zoomedspectrum.png)
 
-3.  In peak selection step, signal-to-noise value will estimate for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
+3.  In peak selection step, signal-to-noise value was estimated for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/PeakSelection.png)
 
