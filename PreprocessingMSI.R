@@ -16,10 +16,8 @@
 #' @return
 #' Returns csv files of drug ion and corresponding mask image for DHI calculation
 #' @author Mridula Prasad \email{mridula.prasad@fmach.it}
-#' @references \url{https://github.com/pietrofranceschi/HomogenMSI}
+#' @references \url{https://github.com/pietrofranceschi/ProcessMSI}
 #' @examples
-#' ## load library
-#' library(HomogenMSI)
 #'
 #' filepath  = 'C:\\folder\\drug' ## MSI data folder path
 #'
