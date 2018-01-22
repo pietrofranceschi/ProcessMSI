@@ -14,6 +14,7 @@ The preprocessing of targeted MSI data is performed in following steps:
 3. In peak picking step, signal-to noise value will estimate for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
 
 4. Create tumor masked image based on tissue ion image using density-based thresholding method.
+![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/MaskImg.png)
 
 5. Remove spatial noise using median filtering.
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/FinalionImages.png)
