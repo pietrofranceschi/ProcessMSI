@@ -6,6 +6,7 @@ Data analysis workflow for targeted MSI imaging experiments
 The preprocessing of targeted MSI data is performed in following steps:
 
 1. Create mass bin of size 0.5.
+https://github.com/pietrofranceschi/ProcessMSI/blob/master/BinnedSpectrum.png
 
 2. Extract drug, tissue and internal standard (optional value) peaks for individual spectrum within their respective bins based on local maxima search. If m/z for tissue ion image is missing, then the drug m/z value will use to extract tissue ion image. 
 
