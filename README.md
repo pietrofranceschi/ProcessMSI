@@ -1,5 +1,4 @@
-# ProcessMSI
-Data analysis workflow for targeted MSI imaging experiments
+# ProcessMSI : Data analysis workflow for targeted MSI imaging experiments
 =====================================================================================================================================
 
 ## Description
