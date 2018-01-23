@@ -4,7 +4,7 @@
 This function includes all the preprocessing steps for targeted MSI data used in our study. 
 
 ## Usage
-PreprocessingMSI <- function(filepath, filename, mzs)
+PreprocessingMSI(filepath, filename, mzs)
 
 ## Arguments
 ```
