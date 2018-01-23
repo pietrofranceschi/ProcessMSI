@@ -14,7 +14,7 @@ mzs           A vector of m/zs for drug, tissue, and internal standand (optional
               Note: In the absence of  m/z for tissue, durg m/z will be used. 
 ```
 ## Depends on
-MALDIquant, msprocess
+MALDIquant, msProcess
 
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
