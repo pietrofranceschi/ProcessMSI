@@ -5,22 +5,17 @@ Data analysis workflow for targeted MSI imaging experiments
 This function includes all the preprocessing steps for targeted MSI data used in our study. 
 
 ## Usage
+PreprocessingMSI <- function(filepath,filename,mzs)
 
-* Depends on
+## Arguments
+filepath   Folder path for MSI data (in Analyze 7.5 format)
+filename   File name to save results
+mzs        List of m/zs used to create drug, tissue, and internal standand (optional) ion peaks. 
+           In the absence of  m/z for tissue, durg m/z will be used. 
 
-```
+##Depends on
 MALDIquant, msprocess
-```
-Example
 
-```
-filepath  = 'C:\\folder\\drug'           ## MSI data folder path
-
- filename ='drug'                        ## filename to save csv files<br/>
- 
- mzs = c(284.2, 281.2, 289.2)      ## mass list for drug, tissue and internal standard (optional) ion peaks
-
-```
 
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
@@ -50,5 +45,17 @@ The preprocessing of targeted MSI data in our study is performed in following st
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/FinalionImages.png)
 
 
+Example
 
+```
+## MSI data folder path
+filepath  = 'C:\\folder\\drug'           
+
+## filename to save csv files
+filename ='drug'                        
+ 
+## mass list for drug, tissue and internal standard (optional) ion peaks 
+mzs = c(284.2, 281.2, 289.2)      
+
+```
 
