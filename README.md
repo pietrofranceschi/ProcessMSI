@@ -17,7 +17,7 @@ mzs           A vector of m/zs for drug, tissue, and internal standand (optional
 MALDIquant, msProcess
 
 ## Details 
-The preprocessing of targeted MSI data in our study is performed in following steps:
+MSI data preprocessing invovles following main steps:
 
 1. First, a reference mass bin of size 0.5 was created.
 
