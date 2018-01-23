@@ -26,7 +26,7 @@ The preprocessing of targeted MSI data in our study is performed in following st
 
 2. Peak selection was performed based on local maxima search in desired bins which in our case three ion peaks, namely: drug (m/z = 284.01-284.23), tissue (m/z=281.16-281.44), and internal standard (m/z= 289.1-289.3) were selected. 
 
-![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/zoomedspectrum.png)
+![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/zoombinnedspectrum.png)
 
 3.  In peak selection step, signal-to-noise value was estimated for each spectrum separately by sorting the intensity value in descending order and look in lower intensity region. 
 
