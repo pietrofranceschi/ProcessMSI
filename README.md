@@ -4,13 +4,13 @@
 This function includes all the preprocessing steps for targeted MSI data used in our study. 
 
 ## Usage
-PreprocessingMSI(filepath, filename, mzs)
+PreprocessingMSI (filepath, filename, mzs)
 
 ## Arguments
 ```
 filepath      Folder path for MSI data (in Analyze 7.5 format).
 filename      File name to save results. 
-mzs           A vector of m/zs used to create drug, tissue, and internal standand (optional) ion peaks.
+mzs           A vector of m/zs for drug, tissue, and internal standand (optional) ion images.
               Note: In the absence of  m/z for tissue, durg m/z will be used. 
 ```
 ## Depends on
