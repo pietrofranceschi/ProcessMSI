@@ -1,5 +1,4 @@
 # ProcessMSI : Data analysis workflow for targeted MSI imaging experiments
-=====================================================================================================================================
 
 ## Description
 This function includes all the preprocessing steps for targeted MSI data used in our study. 
