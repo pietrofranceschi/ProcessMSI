@@ -4,7 +4,7 @@
 This function includes all the preprocessing steps for targeted MSI data used in our study. 
 
 ## Usage
-PreprocessingMSI <- function(filepath,filename,mzs)
+PreprocessingMSI <- function(filepath, filename, mzs)
 
 ## Arguments
 ```
@@ -15,9 +15,6 @@ mzs           List of m/zs used to create drug, tissue, and internal standand (o
 ```
 ## Depends on
 MALDIquant, msprocess
-
-## Value
-Returns csv files for drug and mask ion images. 
 
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
@@ -46,8 +43,10 @@ The preprocessing of targeted MSI data in our study is performed in following st
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/FinalionImages.png)
 
+## Value
+Returns csv files for drug and mask ion images. 
 
-Example
+## Example
 
 ```
 ## MSI data folder path
