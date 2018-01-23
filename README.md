@@ -8,10 +8,10 @@ PreprocessingMSI <- function(filepath, filename, mzs)
 
 ## Arguments
 ```
-filepath      Folder path for MSI data (in Analyze 7.5 format) <br/>
-filename      File name to save results <br/>
-mzs           List of m/zs used to create drug, tissue, and internal standand (optional) ion peaks.<br/>
-              Note: In the absence of  m/z for tissue, durg m/z will be used. <br/> 
+filepath      Folder path for MSI data (in Analyze 7.5 format).
+filename      File name to save results. 
+mzs           List of m/zs used to create drug, tissue, and internal standand (optional) ion peaks.
+              Note: In the absence of  m/z for tissue, durg m/z will be used. 
 ```
 ## Depends on
 MALDIquant, msprocess
