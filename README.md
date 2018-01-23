@@ -23,7 +23,7 @@ MSI data preprocessing invovles following main steps:
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/BinnedSpectrum.png)
 
-2. Peak selection was performed based on local maxima search in desired bins which in our case three ion peaks, namely: drug (m/z = 284.01-284.23), tissue (m/z=281.16-281.44), and internal standard (m/z= 289.1-289.3) were selected. 
+2. Peak selection was performed based on local maxima search in desired bins which in our case three ion peaks, namely: drug (m/z = 284.01-284.23), tissue (m/z=281.16-281.44), and internal standard (m/z= 289.1-289.3). 
 
 ![alt text](https://github.com/pietrofranceschi/ProcessMSI/blob/master/zoombinnedspectrum.png)
 
