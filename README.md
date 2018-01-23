@@ -10,7 +10,7 @@ PreprocessingMSI(filepath, filename, mzs)
 ```
 filepath      Folder path for MSI data (in Analyze 7.5 format).
 filename      File name to save results. 
-mzs           List of m/zs used to create drug, tissue, and internal standand (optional) ion peaks.
+mzs           A vector of m/zs used to create drug, tissue, and internal standand (optional) ion peaks.
               Note: In the absence of  m/z for tissue, durg m/z will be used. 
 ```
 ## Depends on
