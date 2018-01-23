@@ -13,9 +13,11 @@ filename   File name to save results
 mzs        List of m/zs used to create drug, tissue, and internal standand (optional) ion peaks. 
            In the absence of  m/z for tissue, durg m/z will be used. 
 
-##Depends on
+## Depends on
 MALDIquant, msprocess
 
+## Value
+Returns csv files for drug and mask ion images. 
 
 ## Details 
 The preprocessing of targeted MSI data in our study is performed in following steps:
